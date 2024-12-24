@@ -1,0 +1,6 @@
+@Planificador.Backend_HostAddress = http://localhost:5066
+
+GET {{Planificador.Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

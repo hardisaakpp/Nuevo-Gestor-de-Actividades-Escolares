@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include=".idea\.gitignore" />
+      <Content Include=".idea\.idea.Planificador.Frontend\.idea\.gitignore" />
+      <Content Include=".idea\.idea.Planificador.Frontend\.idea\indexLayout.xml" />
+      <Content Include=".idea\.idea.Planificador.Frontend\.idea\projectSettingsUpdater.xml" />
+      <Content Include=".idea\.idea.Planificador.Frontend\.idea\vcs.xml" />
+      <Content Include=".idea\.idea.Planificador.Frontend\.idea\workspace.xml" />
+      <Content Include=".idea\modules.xml" />
+      <Content Include=".idea\Planificador.Frontend.iml" />
+      <Content Include=".idea\vcs.xml" />
+      <Content Include=".idea\workspace.xml" />
+      <Content Include="Planificador.Frontend.sln" />
+    </ItemGroup>
+
+</Project>

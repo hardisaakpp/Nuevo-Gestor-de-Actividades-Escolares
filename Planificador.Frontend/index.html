@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gesact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1 id="project-title">Gestor de Actividades Escolares</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Nosotros</a></li>
+                <li><a href="#features">Funcionalidades</a></li>
+                <li><a href="#contact">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Descripción</h2>
+        <p id="description">Organiza tus tareas y actividades escolares de manera eficiente.</p>
+    </section>
+    <section id="features">
+        <h2>Funcionalidades</h2>
+        <ul id="features-list">
+            <li>Registrar actividades según prioridad y duración.</li>
+            <li>Generar y ajustar un plan semanal automáticamente.</li>
+            <li>Recibir recordatorios de actividades próximas.</li>
+            <li>Exportar el plan en formato PDF.</li>
+        </ul>
+        <div id="viewActivity"></div>
+    </section>
+    <section id="contact">
+        <h2>Contáctanos</h2>
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit" id="submit-button">Enviar</button>
+        </form>
+    </section>
+    <footer id="main-footer">
+        <p>&copy; 2024 Gestor de Actividades Escolares. Todos los derechos reservados.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
